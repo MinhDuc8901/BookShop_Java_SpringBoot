@@ -129,6 +129,7 @@ public class AdminController {
         int discount = readData.getInt("discount");
         String author = readData.getString("author");
         int pagenumber = readData.getInt("pagenumber");
+
         String sessionId = readData.getString("sessionId");
         // kết thúc tham số nhận
         Session session = sesSer.getSession(sessionId);
